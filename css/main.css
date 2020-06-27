@@ -1,0 +1,152 @@
+/*font-family: 'Pangolin', cursive;
+font-family: 'Pacifico', cursive;
+font-family: 'Shadows Into Light', cursive;
+*/
+* {
+  box-sizing: border-box;
+/*  Esto hizo que los elementos ya no se pusieran hacia abajo.
+*/
+  margin: 0;
+  padding: 0;
+}
+
+}
+
+body {
+	font-family: 'Pangolin', cursive;
+	margin: 0;
+	padding: 0;
+	background: #b5cdab;
+}
+
+body, html {
+	height: 100%;
+}
+
+/*header*/
+
+.carousel-content{
+ margin-top: 2%;
+ display: none;
+}
+
+.carousel-content.active{
+ display: block;
+}
+
+.contenedor-carousel{
+ margin: auto;
+ width: 70%;
+ max-width: 1200px;
+ position: relative;
+}
+
+.carousel{
+ text-align: center;
+ width: auto;
+ height: auto;
+}
+
+.carousel div img{
+ width: 100%;
+}
+
+.controls {
+ text-align: center;
+ margin-top: 5px;
+ margin-bottom: 15px;
+
+}
+
+a{
+ text-decoration: none;
+}
+
+.previous,
+.next{
+ width: 40px;
+ height: 40px;
+ background: rgba(255,255,255,0.7);
+ position: absolute;
+ top: 50%;
+ line-height: 40px;
+ font-size: 24px;
+ font-weight: bold;
+ border-radius: 50%;
+ cursor: pointer;
+
+}
+
+.previous{
+ left: 13px;
+}
+
+.next{
+ right: 13px;
+}
+
+.controls button{
+ background: #415066;
+ border: #415066;
+ border-radius: 50%;
+ height: 15px;
+ width: 15px;
+ margin: 0 4px;
+ cursor: pointer;
+}
+
+.controls button.active{
+ background: #1d4f1f;
+}
+
+img {
+	border-radius: 10px;
+	border: 10px solid white;
+}
+
+body {
+  font-family: 'Pangolin', cursive;
+  margin: 0;
+  padding: 0;
+}
+
+body, html {
+  height: 100%;
+}
+
+#header-main-page > p {
+  font-size: 80px;
+  text-align: center;
+/*  outline: 1px solid red;
+*/  margin: 0;
+  padding: 0;
+}
+
+
+#nav-main-page {
+  list-style: none;
+  padding: 0;
+/*  line-height: 40px;
+*/  text-align: center;
+  margin-top: 2%;
+}
+
+li {
+  width: 12%;
+  display: inline-block;
+}
+
+a{
+  color: #96A7B0;
+  font-size: 40px;
+  display: block;
+}
+
+a:hover {
+  background: #2F4858;
+/*  border-radius: .5em;
+*/}
+
+
+
+
